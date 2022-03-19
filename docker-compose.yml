@@ -15,11 +15,3 @@ services:
                 echo "sleep for 20sec"
                 sleep 20
                 ehforwarderbot
-
-    gocq:
-        container_name: gocq
-        image: xzsk2/gocqhttp-docker:latest
-        restart: unless-stopped
-        volumes:
-            - ./gocq:/data
-        network_mode: "host"
