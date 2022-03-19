@@ -111,3 +111,5 @@ docker run -d \
 ```
 
 完整的配置文件参考 [config.yml](gocq/config.yml) 或 [9a84c3f](https://github.com/xzsk2/TG-EFB-QQ-Docker/commit/9a84c3f5850366c642cd3801e34068b182562b07)
+
+docker版gocq无法登录
